@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <link rel="stylesheet" href="css/cssformulario2.css">
+        <title>Cadastrar</title>
+    </head>
+    
+    <body>
+        <div id="fundo"></div>
+        <header>
+            <img id="logo" src="imagens/logo.png">
+    
+            <div>
+                <h1 class="t1">Os 5 melhores</h1>
+                <h1 class="t2">recordes do</h1>
+                <h1 class="t3">Guinnes Book</h1>
+            </div>
+    
+            <div id=usuario>
+                <img  src="imagens/img_311846.png">
+                <br>
+                <p><a id="ent" href="formulario1.html">Entrar</a></p>
+            </div>
+            <nav>
+                <article class="link">
+                    <h2><a href="index.html">Sultan Kösen</a></h2>
+                </article>
+                <article class="link">
+                    <h2><a href="pag3.html">Garry Turner</a></h2>
+                </article>
+                <article class="link">
+                    <h2> <a href="pag4.html">Mehmet ÖzyüreK</a></h2>
+                </article>
+                <article class="link">
+                    <h2> <a href="pag5.html">Cheick Sanou</a></h2>
+                </article>
+                <article class="link">
+                    <h2> <a href="pag6.html">Lucile Randon</a></h2>
+                </article>
+            </nav>
+    <main>
+        <h3 id="ca">Cadastrar</h3>
+        <form action="login.php" method="post">
+            <p>
+                <label for=" Nome do usuario">Nome do usuario:</label>
+                <input class="a" type="text" name="Nomedousuario" id="Nomedousuario" required pattern="[aA-zZ\s]+$">
+            </p>
+        
+            <p>
+                <label for="Nome completo">Nome completo:</label>
+                <input class="a" type="text" name="Nomecompleto" id="Nomecompleto" required pattern="[aA-zZ\s]+$">
+            </p>
+           
+            <p>
+                <label for="E-mail">E-mail:</label>
+                <input class="a" type="text" name="E-mail" id="E-mail" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+            </p>
+            
+            <p>
+                <label for="Data de nascimento">Data de nascimento:</label>
+                <input type="date" name="Datadenascimento" id="Datadenascimento" required
+                    pattern="[0-9]{2}\/[0-9]{2}\/[0-9]{4}$">
+            </p>
+            
+            <p>
+                <label for="Numero do celular">Numero do celular:</label>
+                <input class="a" type="text" name="Numerodocelular" id="Numerodocelular" required
+                    pattern="\([0-9]{2}\) [0-9]{4,5}-[0-9]{4}$">
+            </p>
+            
+            <p>
+                <label for="Senha">Senha:</label>
+                <input class="a" type="text" name="Senha" id="Senha"required pattern="[aA-zZ\s]+$">
+            </p>
+            <input type="submit">
+        </form>
+    </main>
+    <footer>
+        <img id="logo"  src="imagens/logo.png">
+        <h3><b>Contato</b></h3>
+        <address>DudinhaLinda@gmail.com</address>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,179 @@
+﻿
+body{
+    background: #c6dae6;
+    line-height: 1.6;
+    font-family: "helvetica";
+    line-height: 2.0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    
+}
+
+nav{
+    background-color: #8ebdda ;
+    width: 100%;
+    overflow: auto;
+}
+
+.link {
+    background-color:  #8ebdda ;
+    width: 210px;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    font-size: small;
+  
+    
+}
+
+main{
+    background-color: #c0cdd4 ;
+    clear:left;
+    overflow: auto;
+  
+}
+header{
+    background-color: #c0cdd4 ;
+}
+aside{
+    background-color: #c0cdd4 ;
+    clear: both;
+    overflow: auto;
+}
+footer{
+    background-color: #c0cdd4 ;
+    overflow: auto;
+    border-top: solid 1px;
+    border-color: #c6dae6;
+
+
+    
+}
+main article{
+    background-color: #c0cdd4 ;
+    margin: 10px;
+    width: 55%;
+    float: left;
+}
+
+main .img-pessoa{
+    background-color: #c0cdd4 ;
+    margin: 100px 10px 10px 10px;
+    width: 30%;
+    float: left; 
+}
+#grande{
+    width: 400px;
+}
+
+#logo{
+    width: 100px;
+    margin:20px;
+    float:left;
+}
+ header div{
+    width: 400px; 
+    float: left;
+    margin-left: 250px;
+    background-color: #c0cdd4 ;
+ }
+
+#usuario img{
+    margin-top: 10px;
+    width: 50px;
+    margin-bottom: -15px;
+    /*margin:20px;*/
+}
+
+div#usuario{
+    width: 100px;
+    float: right;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pessoas{
+    width: 200px;
+    margin:5px;
+}
+
+p{ 
+  float: right;
+}
+
+h1.t1{
+   font-family: Bookman, URW Bookman L, serif;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    line-height: 9px;
+    font-size: 40px;  
+   
+}
+
+h1.t2{
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;  
+    font-family: Arial Narrow, sans-serif;
+    line-height: 9px;
+    font-size: 20px;  
+}
+
+h1.t3{
+
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;  
+    line-height: 9px;
+    font-size: 40px;  
+    font-family: Bookman, URW Bookman L, serif;
+}
+
+h2.um{
+ 
+    width: 100%;
+    font-size: medium;
+    text-align: center;
+    
+}
+ul{
+    list-style-type:disc;
+}
+h3{
+    margin-left: 10px;
+}
+#ent{
+    margin-right: 52px;
+}
+
+#alto{
+    width: 400px;
+    margin:1px;
+    margin-left:50px;
+}
+#t{
+    margin-right:470px;
+    width: 300px;
+    font-size:larger;
+}
+a:link{
+    color: #0a2f46;
+    text-decoration: none;
+}
+a:visited{
+    color: #0a2f46;
+    text-decoration: underline;
+}
+a:hover{
+    color:azure
+}
+table{
+    width: 300px;
+   
+}
